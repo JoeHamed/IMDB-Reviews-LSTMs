@@ -20,3 +20,19 @@ Install the required packages using pip:
 
 ```bash
 pip install tensorflow tensorflow-datasets numpy matplotlib
+```
+## Dataset
+The IMDB reviews dataset is used for binary sentiment classification (positive or negative). It is downloaded and prepared using TensorFlow Datasets (`tensorflow_datasets`).
+
+## Model Architecture
+The model uses the following layers:
+1. **Embedding Layer**: Converts words into dense vectors of fixed size.
+2. **Bidirectional LSTM**: Captures dependencies in both directions of the text.
+3. **Dense Layers**: For feature transformation and binary classification.
+
+Key parameters:
+- Vocabulary size: `10000`
+- Sequence length: `120`
+- Embedding dimensions: `16`
+- LSTM units: `32`
+- Dense layer units: `6`
