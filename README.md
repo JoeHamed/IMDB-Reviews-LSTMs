@@ -61,3 +61,5 @@ The script includes a utility function to visualize the training and validation 
 ├── main.py # Main script
 ├── README.md           # Project documentation
 ```
+## Accuracy and Loss 
+![image](https://github.com/user-attachments/assets/d8e7c2f7-fa7c-4bf4-bc9d-df8008678713)
