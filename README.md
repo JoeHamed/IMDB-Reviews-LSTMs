@@ -36,3 +36,14 @@ Key parameters:
 - Embedding dimensions: `16`
 - LSTM units: `32`
 - Dense layer units: `6`
+
+## How to Use
+1. Clone the repository:
+
+```bash
+git clone 
+```
+2. Run the script:
+```bash
+ 
+```
