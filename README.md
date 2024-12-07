@@ -47,3 +47,17 @@ git clone
 ```bash
  
 ```
+3. Training and evaluation will be performed, and plots of accuracy and loss will be displayed.
+
+## Training Performance
+The script includes a utility function to visualize the training and validation performance over epochs:
+- Training and Validation Accuracy
+- Training and Validation Loss
+
+## Directory Structure
+```bash
+.
+├── data/               # Dataset directory (downloaded by TensorFlow Datasets)
+├── sentiment_analysis.py # Main script
+├── README.md           # Project documentation
+```
