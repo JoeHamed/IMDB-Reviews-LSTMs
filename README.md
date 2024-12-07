@@ -45,7 +45,7 @@ git clone
 ```
 2. Run the script:
 ```bash
- 
+ python main.py
 ```
 3. Training and evaluation will be performed, and plots of accuracy and loss will be displayed.
 
@@ -58,6 +58,6 @@ The script includes a utility function to visualize the training and validation 
 ```bash
 .
 ├── data/               # Dataset directory (downloaded by TensorFlow Datasets)
-├── sentiment_analysis.py # Main script
+├── main.py # Main script
 ├── README.md           # Project documentation
 ```
