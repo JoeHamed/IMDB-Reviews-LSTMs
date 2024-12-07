@@ -41,7 +41,7 @@ Key parameters:
 1. Clone the repository:
 
 ```bash
-git clone 
+git clone https://github.com/JoeHamed/IMDB-Reviews-LSTMs.git
 ```
 2. Run the script:
 ```bash
